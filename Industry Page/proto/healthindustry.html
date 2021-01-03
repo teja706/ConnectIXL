@@ -1,0 +1,393 @@
+<html>
+    <title>Health Industry</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>    
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro|Quicksand');   
+html,body,h1,h2,h3,h4,h5,h6 
+    {
+        font-family: "Roboto", sans-serif;
+         background-color: #232323;
+        
+    }
+    .icon h2{
+                 color:#333;
+                 position: absolute;
+                 align-content: center;
+                 font-size: 35px;
+                 font-family: "Maven Pro";           
+    }
+    div{
+       background-color: #232323; 
+    }
+    button{
+        font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+    .dropbtn {
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #aaa;
+}
+    circle {
+        stroke-width: 59;
+        stroke-linecap: round;
+    }
+    circle:hover {
+        stroke-width: 71;
+    } 
+    .icon h2{
+                
+                 position: absolute;
+                 display: block;
+                 left: 50%;
+             top: 0px;
+                 height: 35px;
+                 width: 35px;
+                 line-height: 35px;
+                 text-align: center;
+                 font-family: "Quicksand";
+                 font-size: 2em;
+                -moz-border-radius: 20px; /* or 50% */
+                 border-radius: 20px; /* or 50% */
+                 border: white;
+                 float: left;
+                 
+               
+        }
+        
+        .navbar{
+            margin: auto;
+            height: 60px;
+            width: 100%;
+            top: 0px;
+            background-color: #232323;
+            position: fixed;
+        }
+       #toggle {
+  display: block;
+  width: 28px;
+  height: 30px;
+  margin: 30px 0 0 20px;
+  float: left;
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* menu appearance*/
+#menu {
+  
+  color: white;
+  width: 500px;
+  padding: 10px;
+  height: 30px;
+  margin: 10px 0 0 20px;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  font-size: 20px;
+    text-align: center;
+  border-radius: 4px;
+  background: #232323;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .4s;
+}
+#menu:after {
+  position: absolute;
+  top: -10px;
+  left: 95px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #232323;
+}
+ul, li, li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  transition: all .2s;
+  
+}
+li a:hover,
+li a:focus {
+  background: #232323;
+  color: aquamarine;
+  border-bottom: 2px groove aquamarine;
+}
+.search{
+    background-color:#232323;
+                 position: absolute;
+                 right: 25px;
+                 float: left;
+                 top: 20px;
+}
+    #hoverer{
+        text-decoration: none;
+        color: azure; 
+        transition: .3s ease-in-out;
+    }
+    #hoverer:hover{
+        color: aquamarine;
+        background: aquamarine;
+    }
+    </style>
+    
+
+<body class="w3-lightgrey">
+
+     </div>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-quarter">
+    
+      <div class="w3-darkgray w3-text-dimgrey w3-card-4">
+        <div class="w3-display-container">
+            <br><a href="#"><center><img src="2.jpg"style=" border:1px;border-radius: 250px; width:200px; height:200px;" alt="Avatar"></center></a>
+          <div class="w3-display-bottom w3-container w3-text-black">
+              <center><h2><a herf=".w3-threequarter" style="text-decoration: none;color: azure;">Health</h2></center>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p style="font-size:25px;color: azure;">Visualization</p>
+            <a href="#vis_market" id="hoverer"><p style="font-size:17px;">Market</p></a>
+            <a href="#vis_deliv" id="hoverer"><p style="font-size:17px;">Delivery</p></a>
+            <a href="#vis_offer" id="hoverer"><p style="font-size:17px;">Offering</p></a>
+          <a href="#vis_prod" id="hoverer"><p style="font-size:17px;">Production</p></a>
+        <a href="#vis_bmod" id="hoverer"><p style="font-size:17px;">Business Model</p></a>
+
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+      
+    <!-- Right Column -->
+    <div class="w3-threequarter">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+           <div class="icon"></div>
+           </div>
+            
+            
+      <div class="w3-container w3-card w3-darkgray">
+        
+        <div class="w3-container">
+            <div>
+                <img src="1.jpg" width="920px" height="250px">
+            </div>
+            <p style="font-size: 30px;color: azure;">HEALTH</p>
+         <p style="font-size: 18px;font-family: roboto;color: azure;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>The definition of health has evolved over time. In keeping with the biomedical perspective, early definitions of health focused on the theme of the body's ability to function; health was seen as a state of normal function that could be disrupted from time to time by disease. An example of such a definition of health is: "a state characterized by anatomic, physiologic, and psychological integrity; ability to perform personally valued family, work, and community roles; ability to deal with physical, biological, psychological, and social stress". Then, in 1948, in a radical departure from previous definitions, the World Health Organization (WHO) proposed a definition that aimed higher: linking health to well-being, in terms of "physical, mental, and social well-being, and not merely the absence of disease and infirmity". Although this definition was welcomed by some as being innovative, it was also criticized as being vague, excessively broad, and was not construed as measurable. For a long time, it was set aside as an impractical ideal and most discussions of health returned to the practicality of the biomedical model.
+             </i>
+         </p>
+                </div>
+        
+          
+      </div>
+        <br>
+    <div class="w3-container w3-card w3-darkgray">
+    <div class="w3-container" >
+        <h3 id="vis_market" style="color: azure;">Markets</h3>
+         <button id="combine">Combine</button>    
+         <button id="distribute">Distribute</button>
+         <div class="dropdown">
+         <button class="dropbtn">Category</button>
+         <div class="dropdown-content">
+<button id="markbtn" style="width: 100%;background-color: #1abc9c;padding: 10px;border-bottom: 1px solid white;color: white">Market</button>
+<button id="custbtn" style="width: 100%;background-color: #f39c12;padding: 10px;border-bottom: 1px solid white;color: azure;">Customers</button>    
+<button id="needbtn" style="width: 100%;background-color: #3498db;padding: 10px;border-bottom: 1px solid white;color: azure;">Needs</button>
+<button id="expebtn" style="width: 100%;background-color: #9b59b6;padding: 10px;border-bottom: 1px solid white;color: azure;">Experiences</button>
+<button id="other1btn" style="width: 100%;background-color: #e74c3c;padding: 10px;border-bottom: 1px solid white;color: azure;">Others</button>
+  </div>
+        </div>
+        <div id="marketchart"></div> 
+        </div>
+        </div>
+        <br>
+    <div class="w3-container w3-card w3-darkgray">
+    <div class="w3-container">
+        <h3 id="vis_deliv" style="color: azure;">Delivery</h3>
+        <div id="delivchart"></div> 
+        </div>
+        </div>
+        <br>
+    <div class="w3-container w3-card w3-darkgray">
+    <div class="w3-container">
+        <h3 id="vis_offer" style="color: azure;">Offerings</h3>
+        <div id="offchart"></div> 
+        </div>
+        </div>
+        <br>
+    <div class="w3-container w3-card w3-darkgray">
+    <div class="w3-container">
+        <h3 id="vis_prod" style="color: azure;">Production</h3>
+        <button id="combine">Combine</button>    
+<button id="distribute">Distribute</button>
+
+       
+</div>
+        <div id="prodchart"></div> 
+        </div>
+        <br>
+    <div class="w3-container w3-card w3-darkgray">
+    <div class="w3-container">
+        <h3 id="vis_bmod" style="color: azure;">Business Model</h3>
+        <button id="combine">Combine</button>    
+<button id="distribute">Distribute</button>
+<button id="indbutton">Industries</button>
+<button id="secbutton">Sectors</button>
+        <div id="bmodchart"></div> 
+        </div>
+        </div>
+        </div>
+    
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+    
+            <script src="d3v4min.js"></script>
+            <script src="healthindbb.js"></script>
+            <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+            <script>
+                $(window).scroll(function(){
+  $(".w3-quarter").stop().animate({"marginTop": ($(window).scrollTop()) + "px", "marginLeft":($(window).scrollLeft()) + "px"}, "slow" );
+});
+            </script>
+            <script>
+var theToggle = document.getElementById('toggle');
+
+// based on Todd Motto functions
+// https://toddmotto.com/labs/reusable-js/
+
+// hasClass
+function hasClass(elem, className) {
+	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+}
+// addClass
+function addClass(elem, className) {
+    if (!hasClass(elem, className)) {
+    	elem.className += ' ' + className;
+    }
+}
+// removeClass
+function removeClass(elem, className) {
+	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+	if (hasClass(elem, className)) {
+        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+            newClass = newClass.replace(' ' + className + ' ', ' ');
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+}
+// toggleClass
+function toggleClass(elem, className) {
+	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+    if (hasClass(elem, className)) {
+        while (newClass.indexOf(" " + className + " ") >= 0 ) {
+            newClass = newClass.replace( " " + className + " " , " " );
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    } else {
+        elem.className += ' ' + className;
+    }
+}
+
+theToggle.onclick = function() {
+   toggleClass(this, 'on');
+   return false;
+}
+</script>
+       
+        </body>
+
+</html>

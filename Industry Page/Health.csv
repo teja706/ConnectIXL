@@ -1,0 +1,123 @@
+id,head,subhead,fragment,radius
+1,Market,trends,Demographic change (High & middle income group; access to all),25
+2,Market,trends,Increased entrepreneurship and accountability,25
+3,Market,trends,Advances in medical science and drug dev’t,25
+4,Market,trends,Preventive healthcare,25
+5,Market,trends,New diseases emerging disease states,25
+6,Market,trends,Focus on low cost drugs,25
+7,Market,trends,Malaria resistance,25
+8,Market,trends,Cost of antiretroviral drugs,25
+9,Market,trends,Development of new era of bio-pharmaceutical Market (human /animal),25
+10,Market,customers,Competitors,25
+11,Market,customers,Hospitals,25
+12,Market,customers,Business customers (Health professionals; researchers; patients; pharmacies),25
+13,Market,customers,Insurance bodies,25
+14,Market,customers,Over the counter consumers,25
+15,Market,segments,General Medicines,25
+16,Market,segments,Different specialties,25
+17,Market,segments,Elderly group,25
+18,Market,segments,Pediatrics,25
+19,Market,segments,Vaccines,25
+20,Market,segments,OTC  Consumers,25
+21,Market,needs,Therapeutic,25
+22,Market,needs,Maintenance of well being,25
+23,Market,needs,Efficacy,25
+24,Market,needs,Quality/reliability,25
+25,Market,needs,Affordability,25
+26,Market,needs,Availability,25
+27,Market,needs,Accessibility,25
+28,Market,needs,Compliance to medical/health regulations,25
+29,Market,needs,Sharing of prescribed medical information,25
+30,Market,needs,Meeting the environment/health/safety conditions,25
+31,Market,needs,Research and developmental challenges,25
+32,Market,influencers,Promotions/ads,25
+33,Market,influencers,Doctors,25
+34,Market,influencers,Distributors/pharmacies,25
+35,Market,influencers,Government,25
+36,Market,influencers,Manufacturers,25
+37,Market,influencers,Words of mouth,25
+38,Delivery,trends,Increasing Demand for Alternative medicines,25
+39,Delivery,trends,Increasing Demand for Healthcare,25
+40,Delivery,trends,Increasing Environmental Awareness,25
+41,Delivery,trends,Need to reduce cost,25
+42,Delivery,trends,Fighting counterfeit and fake drugs,25
+43,Delivery,trends,Developing specialty products,25
+44,Delivery,trends,Wide availability,25
+45,Delivery,trends,Easy accessibility,25
+46,Delivery,trends,Urban re-vitalization,25
+47,Delivery,trends,Patient-safety,25
+48,Delivery,services,General Therapeutic range,25
+49,Delivery,services,Specialty products(ex:cardiac;anti-hypertensive;ortho;lipid-lowering;neuro;hormones;Antiretrovirals;Anti-cancer;Anti-asthmatics;etc.),25
+50,Delivery,services,Pediatric products,25  
+51,Delivery,services,Vaccines,25
+52,Delivery,services,OTC  Consumers,25
+53,Delivery,services,Animal health products,25
+54,Delivery,services,Medical prescription information provider,25
+55,Delivery,services,Consultation,25
+56,Delivery,services,Patient awareness program,25
+57,Delivery,services,Global health programs,25
+58,Delivery,services,Community programs,25
+59,Delivery,services,Research and developmental assistance,25
+60,Delivery,application,Therapeutic  treatment and maintenance,25
+61,Delivery,application,General well-being,25
+62,Delivery,application,Prevention & treatment of diseases and disorders,25
+63,Delivery,application,Communicating & Information sharing,25
+64,Delivery,application,Research & development,25
+65,Delivery,application,Community development/awareness,25
+66,Offering,trends,Emphasis on detailing trade channels,25
+67,Offering,trends,Growth in sales of trade products,25
+68,Offering,trends,Strategic partnership and collaboration with manufacturers; researchers; suppliers; and prescribers; hospitals and pharmacies,25
+69,Offering,occasion,Medical prescription generation at Medical practitioner level,25
+70,Offering,occasion,Dispensing prescription at pharmacy level,25
+71,Offering,occasion,OTC dispensing,25
+72,Offering,occasion,Direct-to consumer advertising,25
+73,Offering,occasion,Insurance & public health bodies,25
+74,Offering,Location,Established Markets (e.g. North America and Europe;Africa),25
+75,Offering,Location,Emerging Markets (e.g. Asia/ Middle East ),25
+76,Offering,Channels,In-direct sales,25
+77,Offering,Channels,Agents/ wholesalers/ retailers,25
+78,Offering,Channels,Hospitals/ health centers/ pharmacies,25
+79,Production,trends,Innovative manufacturing & packaging technology,25
+80,Production,trends,Compliance to regulatory and manufacturing standards,25
+81,Production,trends,Cost effective  but reliable technological shift,25
+82,Production,trends,Increased local manufacturing,25
+83,Production,trends,Biotechnology,25
+84,Production,trends,Consumer products,25
+85,Production,technologies,Innovative drugs & diagnostics,25
+86,Production,technologies,Innovative packaging,25
+87,Production,technologies,Advanced R & D facility,25
+88,Production,technologies,Advanced scientific technology Production facility,25
+89,Production,physical assets,Global Manufacturing Sites,25
+90,Production,physical assets,Global Presence,25
+91,Production,physical assets,R&D Centers,25
+92,Production,physical assets,Training Centers,25
+93,Production,competencies,Brand/Market Position,25
+94,Production,competencies,Certifications (such as ISO),25
+95,Production,competencies,Corporate Responsibility,25
+96,Production,competencies,Innovation,25
+97,Production,competencies,Diversity,25
+98,Business Model,trends,Development of newer therapeutic molecules,25
+99,Business Model,trends,Innovative R&D and Production facility,25
+100,Business Model,trends,Wide network,25
+101,Business Model,trends,Focused business approach,25
+102,Business Model,trends,Mergers and Acquisitions,25
+103,Business Model,trends,High performing culture,25
+104,Business Model,trends,Advance medical-education approach ,25
+105,Business Model,trends,De-centralized structure ,25
+106,Business Model,trends,Focus on healthcare professionals,25
+107,Business Model,trends,Leading innovation,25
+108,Business Model,partners and networks,Hospitals,25
+109,Business Model,partners and networks,Pharmacies,25
+110,Business Model,partners and networks,Distributor,25
+111,Business Model,partners and networks,Competitors,25
+112,Business Model,partners and networks,Pfizer Global manufacturing,25
+113,Business Model,partners and networks,Agents/Distributors,25
+114,Business Model,partners and networks,TPA/manufacturers,25
+115,Business Model,partners and networks,Universities; research institutes; industries,25
+116,Business Model,enterprise model,Collaboration / Partnership,25
+117,Business Model,enterprise model,Outsourcing,25
+118,Business Model,enterprise model,Vertical/Horizontal integration,25
+119,Business Model,enterprise model,Local Government and key policy stakeholders,25
+120,Business Model,pricing strategy,Price leadership,25
+121,Business Model,pricing strategy,Competitive Position,25
+122,Business Model,pricing strategy,Performance oriented reward & commissions,25
